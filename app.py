@@ -575,12 +575,8 @@ from tensorflow.keras.layers import Embedding, Conv1D, GlobalMaxPooling1D, Dense
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.callbacks import EarlyStopping
-from kerastuner.tuners import BayesianOptimization
-from kerastuner import HyperModel
-from tensorflow.keras.optimizers import Adam, SGD, RMSprop
-from tensorflow.keras.models import load_model
 import streamlit as st
-import pickle
+
 
 
 # Extract labels
